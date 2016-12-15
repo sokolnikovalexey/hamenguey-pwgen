@@ -3,6 +3,7 @@ const VOWELS = ['a', 'e', 'i', 'o', 'u', 'y'];
 const CONSONANTS = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'];
 const PASSWORD_LENGTH = 8;
 
+class PasswordGenerator {
 	constructor(srcText) {
 		this._dictionary = srcText.split(' ');
 	}
@@ -32,6 +33,7 @@ const PASSWORD_LENGTH = 8;
 }
 
 const passwordField = document.getElementById("pswrd");
+const generator = new PasswordGenerator(SOURCE_TEXT);
 passwordField.innerHTML = generator.generate();
 const range = document.createRange();
 range.selectNode(passwordField);
