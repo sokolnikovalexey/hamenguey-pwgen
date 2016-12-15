@@ -1,0 +1,100 @@
+div, body
+{
+	margin: 0;
+	padding: 0;
+}
+
+body
+{
+	background: -moz-linear-gradient(0deg, rgba(24,44,116,1) 0%, rgba(33,161,170,1) 100%);
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%, rgba(24,44,116,1)), color-stop(100%, rgba(33,161,170,1)));
+	background: -webkit-linear-gradient(0deg, rgba(24,44,116,1) 0%, rgba(33,161,170,1) 100%);
+	background: -o-linear-gradient(0deg, rgba(24,44,116,1) 0%, rgba(33,161,170,1) 100%);
+	background: -ms-linear-gradient(0deg, rgba(24,44,116,1) 0%, rgba(33,161,170,1) 100%);
+	background: linear-gradient(90deg, rgba(24,44,116,1) 0%, rgba(33,161,170,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#182c74', endColorstr='#21a1aa',GradientType=1 );
+}
+
+span, a
+{
+	color: white;
+}
+
+.pswrd_wrapper
+{
+	position: absolute;
+	width: 100%;
+	top: 47%;
+}
+
+.top_descr, .pswrd
+{
+	display: block;
+	text-align: center;
+}
+
+.top_descr
+{
+	margin-top: 1%;
+	font-size: 28px;
+	font-size: 1.75rem;
+}
+
+.key_buttons
+{
+	display: inline-block;
+	padding: 5px;
+	border: 1px solid white;
+	border-radius: 4px;
+	margin: 0 5px;
+}
+
+.pswrd
+{
+	font-size: 40px;
+	font-size: 8rem;
+}
+
+.left_descr
+{
+	position: absolute;
+	bottom: 10px;
+	left: 10px;
+}
+
+::selection
+{
+  background: none;
+}
+::-moz-selection
+{
+  background: none;
+}
+
+@media screen and (max-width: 960px)
+{
+	.top_descr
+	{
+		font-size: 20px;
+		font-size: 1.3rem;
+	}
+	.pswrd
+	{
+		font-size: 30px;
+		font-size:6rem;
+	}
+}
+
+@media screen and (max-width: 650px)
+{
+	.top_descr
+	{
+		font-size: 20px;
+		font-size: 1.3rem;
+	}
+	.pswrd
+	{
+		font-size: 30px;
+		font-size:4rem;
+	}
+}
