@@ -5,7 +5,7 @@ The main idea is to create the password than you can keep in your mind.
 ##Alg
 1. Get some random words from the book "The Old man and the Sea"
 2. Replace all consonant with random consonant
-3. Replace all vowels with random wowels
+3. Replace all vowels with random vowels
 4. ???
 5. PROFIT!
 
